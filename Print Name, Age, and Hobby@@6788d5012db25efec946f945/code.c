@@ -3,6 +3,6 @@ int main() {
     char a[50],b[50];
     int c;
     scanf("%s%s%d",&a,&b,&c);
-    printf("Name:%s,a\n Age:%d,b\n Hobby:%s,c");
+    printf("Name:%s,a\n Age:%d,c\n Hobby:%s,b");
     return 0;
 }
