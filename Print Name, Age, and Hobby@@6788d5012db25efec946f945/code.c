@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main() {
-    char a[50],c[100];
-    int b;
-    scanf("%s%d\n%s",a,&b,c);
-    printf("Name:%s,a\n Age:%d,b\n Hobby:%s,c");
-    return 0;
-}
+char name[50];
+int age;
+char hobby[100];
+scanf("%s",name);
+scanf("%s",&age);
+scanf("%s",hobby);
+printf("%s\n%d\n%s\n",name,age,hobby)
