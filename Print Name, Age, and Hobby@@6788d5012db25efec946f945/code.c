@@ -6,4 +6,5 @@ char hobby[100];
 scanf("%s",name);
 scanf("%s",&age);
 scanf("%s",hobby);
-printf("%s\n%d\n%s\n",name,age,hobby)}
+printf("%s\n%d\n%s\n",name,age,hobby);
+return 0;}
