@@ -3,8 +3,8 @@
 
 
 int main() {
-    char c;
-    scanf("%c",&c;)
-    printf("You entered: %c",c);
+    char d;
+    scanf("%c",&d);
+    printf("You entered: %c",d);
     return 0;
 }
