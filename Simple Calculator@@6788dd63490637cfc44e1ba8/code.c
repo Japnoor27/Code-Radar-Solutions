@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
-int a,b,c;
-char ch;
-scanf("%d%d%c",&a,&b,&ch);
+int a,b,c,ch;
+
+scanf("%d%d%d",&a,&b,&ch);
 if(ch=='+'){
     c=a+b;
     printf("%d",c);
