@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-int char ch;
+ char ch;
 scanf("%d",&ch);
 if(ch>='0' && ch<= '9'){
     printf("Digit");}
