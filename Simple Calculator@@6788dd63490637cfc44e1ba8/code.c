@@ -16,8 +16,14 @@ else if(ch=='*'){
     printf("%d",c);
 }
 else if (ch=='/'){
+    if(b==0){
+        printf("Error");
+    }
+    else{
+
+    
     c=a/b;
-    printf("%d",c);
+    printf("%d",c);}
 }
 else{
     printf("Error");
