@@ -15,6 +15,6 @@ if(ch>='0' && ch<= '9'){
 else{
     printf("Special Character");
 }
-else 
+
     return 0;
 }
