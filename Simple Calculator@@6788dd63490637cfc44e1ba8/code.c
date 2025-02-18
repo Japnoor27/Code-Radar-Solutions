@@ -24,7 +24,7 @@ int main(){
                 c = a / b;
                 printf("%d", c);
         }else {
-                printf("Error");
+                printf("error");
             }
         break;
         default:
