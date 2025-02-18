@@ -19,14 +19,14 @@ int main(){
          c=a*b;
         printf("%d",c);
         break;
-          case '/':
-            if (b != 0) {
+        case '/':
+        if (b != 0) {
                 c = a / b;
                 printf("%d", c);
-            } else {
+        }else {
                 printf("Error");
             }
-            break;
+        break;
         default:
         printf("invalid");
         break;
