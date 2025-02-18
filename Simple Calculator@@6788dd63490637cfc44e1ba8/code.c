@@ -20,9 +20,13 @@ int main(){
         printf("%d",c);
         break;
           case '/':
-         c=a/b;
-        printf("%d",c);
-        break;
+            if (b != 0) {
+                c = a / b;
+                printf("%d", c);
+            } else {
+                printf("Error: Division by zero");
+            }
+            break;
         default:
         printf("invalid");
         break;
@@ -30,5 +34,5 @@ int main(){
 
 
     }
-
+return 0;
 }
