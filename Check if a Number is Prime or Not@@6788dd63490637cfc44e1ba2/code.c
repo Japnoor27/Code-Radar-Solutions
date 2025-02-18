@@ -2,7 +2,7 @@
 int main() {
    int a,i=2;
    scanf("%d",&a);
-  while(i<=100){
+  while(i=100){
     if(a%i==0){
         printf("Prime");
     }
