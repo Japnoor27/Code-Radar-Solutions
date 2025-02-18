@@ -1,14 +1,20 @@
 #include <stdio.h>
 int main() {
-   int a,i=2;
-   scanf("%d",&a);
-  while(i<=100){
-    if(a%i==0){
-        printf("Prime");
+    int n, i, isPrime = 1;
+    scanf("%d", &n);
+    if (n <= 1) {
+        printf("Not Prime\n");
+        return 0;
     }
-    else{
-        printf("Not Prime");
+    for (i = 2; i < n; i++) {
+        if (n % i == 0) {
+            isPrime = 0;
+            break;
+        }
     }
-  }
+    if (isPrime)
+        printf("Prime\n");
+    else
+        printf("Not Prime\n");
     return 0;
 }
