@@ -5,5 +5,5 @@ int main(){
         t=a*i;
         printf("%d x %d=%d\n",a,i,t);
     }
-
+return 0;
 }
