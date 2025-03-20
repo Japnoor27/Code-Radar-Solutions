@@ -1,8 +1,10 @@
+
 #include <stdio.h>
 int main(){
-    int n,i,j,start=1;
+    int n,i,j,start;
     scanf("%d",&n);
     for(i=1;i<=n;i++){
+        start=i%2;
         for(j=1;j<=i;j++){
             printf("%d",start);
         start=start-1;
