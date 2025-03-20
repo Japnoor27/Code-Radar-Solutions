@@ -11,12 +11,12 @@ int main() {
         }
         // Print increasing numbers
         for (j = 1; j <= i; j++) {
-            printf("%d", j);
+            printf("%d ", j);
 
         }
         // Print decreasing numbers
         for (l = i - 1; l>= 1; l--) {
-            printf("%d", j);
+            printf("%d ", j);
         }
         printf("\n"); // Move to the next line after each row
     }
