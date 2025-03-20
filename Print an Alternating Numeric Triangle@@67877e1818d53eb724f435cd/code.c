@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int n, i, j, start;
-    printf("Enter the number of rows: ");
+
     scanf("%d", &n); // Take user input for the number of rows
 
     for (i = 1; i <= n; i++) { // Outer loop for rows
