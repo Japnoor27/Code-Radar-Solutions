@@ -13,7 +13,7 @@ int main(){
             if(count!=0){
                 max=b[0];
                 for(i=0;i<count;i++){
-                    if(b[i]>max){
+                    if(b[i]>=max){
                         max=a[i];
                     }
 
