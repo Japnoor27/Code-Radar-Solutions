@@ -2,7 +2,7 @@
 #include <limits.h>
 int main(){
     int i,n,a[100]={};
-    scanf("%d",&i);
+    scanf("%d",&n);
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
