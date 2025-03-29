@@ -5,9 +5,7 @@ scanf("%d",&N);
 for(i=0;i<N;i++){
     scanf("%d",&a[i]);
 }
-if(N==1){
-    printf("Sorted");
-}
+
 for(i=0;i<N;i++){
     for(j=i+1;j<N;j++){
         flag=0;
@@ -19,7 +17,10 @@ for(i=0;i<N;i++){
             }
     }
 }
-if(flag==1){
+if(N==1){
+    printf("Sorted");
+}
+else if(flag==1){
     printf("Sorted");
 
 }
