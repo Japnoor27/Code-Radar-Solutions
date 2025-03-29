@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int N;a[100]={},i,j,freq[100]={},count=0;
+    int N,a[100]={},i,j,freq[100]={},count=0;
     scanf("%d",&N);
     for(i=0;i<N;i++){
         scanf("%d",&a[i]);
