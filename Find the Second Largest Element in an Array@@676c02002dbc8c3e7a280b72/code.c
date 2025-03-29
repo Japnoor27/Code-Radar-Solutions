@@ -6,8 +6,9 @@ int main(){
         scanf("%d",&a[i]);
       }
       for(i=0;i<N-1;i++){
+         flag=1;
         for(j=0;j<N-1-i;j++){
-            flag=1;
+           
             if(a[j]>a[j+1]){
                 flag=1;
                int temp =a[j];
