@@ -30,7 +30,7 @@ int main() {
             printf("%d ", sum_neg);
         }
        
-       
+        printf("%d ", sum);  
     }
     return 0;
 }
