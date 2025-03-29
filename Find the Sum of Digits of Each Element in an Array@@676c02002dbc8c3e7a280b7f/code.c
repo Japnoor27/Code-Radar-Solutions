@@ -21,7 +21,7 @@ int main() {
         }}
         else{
              while (a[i] != 0) {
-                num=-(a[i]);
+               int num=-(a[i]);
             n = num % 10;    
             sum =sum+ n;         
             num =num/ 10;       
