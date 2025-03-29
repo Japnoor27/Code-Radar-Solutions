@@ -6,8 +6,10 @@ int main(){
         scanf("%d",&a[i]);
     }
     for(i=0;i<N;i++){
-        if(a[i]==a[i+1]){
+       for(j=i+1;j<N;j++){
+        if(a[i]=a[j]){
             printf("%d",a[i]);
         }
+       }
     }
 }
