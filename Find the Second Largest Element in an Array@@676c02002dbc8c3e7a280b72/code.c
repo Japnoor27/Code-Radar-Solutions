@@ -17,9 +17,7 @@ int main(){
             }
         }
       }
-      if(flag==0){
-        printf("%d",a[N-2]);
-      }
+    
       printf("%d",a[N-2]);
       
       }
