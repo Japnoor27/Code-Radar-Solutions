@@ -7,7 +7,7 @@ int main() {
     for (int i=0;i<N;i++) {
         scanf("%d", &arr[i]);
     }
-    int largest = INT_MIN, slargest = INT_MIN;
+    int largest = INT_MAX, slargest = INT_MAX;
 
     for (int i = 0; i < N; i++) {
         if (arr[i]<largest) {
@@ -17,7 +17,7 @@ int main() {
             slargest = arr[i];
         }
     }
-    if(slargest == INT_MIN) {
+    if(slargest == INT_MAX) {
         printf("-1\n");
     } else {
         printf("%d\n", slargest);
