@@ -5,15 +5,17 @@ int main(){
     for(i=0;i<N;i++){
         scanf("%d",&a[i]);
     }
-    max=a[0];
-    for(i=0;i<N;i++){
-        for(j=i+1;j<N;j++){
-            if(a[j]>max){
-                max=a[j];
-            }
-           
-        }
+   for(i=0;i<N;i++){
+    if(a[i]>a[i-1] && a[i]>a[i+1]){
+        printf("%d",a[i]);
+        return 0;
     }
-    printf("%d",max);
+   }
+   if(a[N-1]>a[N-2]){
+    printf("%d",a[N-1]);
     return 0;
+   }
+   if(a[0]>a[1]){
+    printf("%d",a[0]);
+   }
 }
