@@ -11,7 +11,7 @@ int main() {
         while(j<a[i]){
             if(a[i]%j==0){
                 flag=0;
-                break;
+                break;}
             }
             j++;
             if(flag==1 && a[i]>1){
@@ -20,5 +20,5 @@ int main() {
         }
         printf("%d",count);
     }
-    return 0;
-    }
+
+    
