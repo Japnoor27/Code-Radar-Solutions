@@ -1,25 +1,32 @@
 #include <stdio.h>
-#include <limits.h>
 int main(){
-    int i,n,a[100]={};
-      int smallest= INT_MAX, ssmallest= INT_MAX;
-    scanf("%d",&n);
-    for(i=0;i<n;i++){
+    int N,a[100]={},i,j,freq[100]={},count=1,flag=0;
+    scanf("%d",&N);
+    for(i=0;i<N;i++){
         scanf("%d",&a[i]);
-    }
-  
-    for(i=0;i<n;i++){
-        if(a[i]<smallest){
-            ssmallest=smallest;
-            smallest=a[i];
+      }
+      for(i=0;i<N-1;i++){
+         flag=1;
+        for(j=0;j<N-1-i;j++){
+           
+            if(a[j]>a[j+1]){
+                flag=1;
+               int temp =a[j];
+               a[j]=a[j+1];
+               a[j+1]=temp;
+            }
+            else if(a[j]==a[j+1]){
+                flag=0;
+            }
         }
-        else if(a[i]<smallest &&a[i]!=smallest){
-            ssmallest=a[i];
-        }}
-        if(ssmallest== INT_MAX){
-            printf("-1");
-        }
-        else{
-            printf("%d",smallest);
-        }
-    }
+      }
+    
+      if(N==1 || flag==0){
+        printf("-1");
+      }
+      else{
+        printf("%d",a[1]);
+      }
+     return 0;
+      
+      }
