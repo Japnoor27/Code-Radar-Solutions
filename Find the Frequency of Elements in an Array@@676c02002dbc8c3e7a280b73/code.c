@@ -28,7 +28,7 @@ int main() {
     }
 
     // Display frequencies of unique elements
-    printf("Element Frequencies:\n");
+    
     for (i = 0; i < N; i++) {
         if (freq[i] != 0) {
             printf("%d %d\n", a[i], freq[i]);
