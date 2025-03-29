@@ -8,6 +8,7 @@ int main(){
       for(i=0;i<N-1;i++){
         for(j=0;j<N-1-i;j++){
             if(a[j]>a[j+1]){
+                flag=1;
                int temp =a[j];
                a[j]=a[j+1];
                a[j+1]=temp;
@@ -18,6 +19,12 @@ int main(){
         }
       }
     
-      printf("%d",a[N-2]);
+      if(N==1 || flag==0){
+        printf("-1");
+      }
+      else if(flag==1){
+        printf("%d",a[N-2]);
+      }
+     return 0;
       
       }
