@@ -10,7 +10,7 @@ if(n%2!=0){
     printf("%d",med);
 }
 else if(n%2==0){
-    med=((n/2)+(n-1/2))/2;
+    med=(a[(n/2)]+a[(n-1/2)])/2;
     printf("%d",med);
 }
 }
