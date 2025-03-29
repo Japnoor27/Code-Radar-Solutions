@@ -6,7 +6,7 @@ int main(){
         scanf("%d",&a[i]);
     }
     for(i=0;i<N;i++){
-        if(a[i]>=k){
+        if(a[i]>k){
             count++;
         }
         else{
