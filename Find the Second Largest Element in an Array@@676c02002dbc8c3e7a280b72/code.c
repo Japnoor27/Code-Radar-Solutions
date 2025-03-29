@@ -21,11 +21,12 @@ int main(){
         }
       }
     
-      if(N==1 || flag==0){
-        printf("-1");
-      }
-      else if(flag==1){
+    
+       if(flag==1){
         printf("%d",a[N-2]);
+      }
+      else{
+        printf("-1");
       }
      return 0;
       
