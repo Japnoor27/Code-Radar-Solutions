@@ -1,29 +1,26 @@
 #include <stdio.h>
-
+#include <limits.h>
 int main() {
-    int N, a[100], i, j, flag = 0;
-    scanf("%d", &N);
-    for (i = 0; i < N; i++) {
-        scanf("%d", &a[i]);
+    int N;
+    scanf("%d",&N);
+    int arr[N];
+    for (int i=0;i<N;i++) {
+        scanf("%d", &arr[i]);
     }
+    int largest = INT_MIN, slargest = INT_MIN;
 
-    
-    for (i = 0; i < N - 1; i++) {
-        for (j = 0; j < N - 1 - i; j++) {
-            if (a[j] > a[j + 1]) {
-                int temp = a[j];
-                a[j] = a[j + 1];
-                a[j + 1] = temp;
-            }
+    for (int i = 0; i < N; i++) {
+        if (arr[i]>largest) {
+            slargest = largest;
+            largest = arr[i];
+        } else if (arr[i] > slargest && arr[i] != largest) {
+            slargest = arr[i];
         }
     }
-    int small=a[0];
-for(i=0;i<N;i++){
-    if(a[i]<=small){
-        small=a[i];
+    if(slargest == INT_MIN) {
+        printf("-1\n");
+    } else {
+        printf("%d\n", slargest);
     }
-}
-printf("%d",small);
-
-    return 0;
+   return 0;
 }
