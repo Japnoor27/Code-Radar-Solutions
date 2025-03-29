@@ -31,7 +31,7 @@ int main() {
     printf("Element Frequencies:\n");
     for (i = 0; i < N; i++) {
         if (freq[i] != 0) {
-            printf("%d occurs %d time(s)\n", a[i], freq[i]);
+            printf("%d %d\n", a[i], freq[i]);
         }
     }
 
