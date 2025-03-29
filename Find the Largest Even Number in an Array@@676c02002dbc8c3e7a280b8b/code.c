@@ -15,12 +15,12 @@ int main(){
                 
 if(b[j]>max){
     max=b[j];
-      printf("%d",max);
-}
-               else {
-                printf("-1");
-               }
-            }
+}}
+  printf("%d",b[j]);
+else {
+    printf("-1");
+    }
+            
           
 
         
