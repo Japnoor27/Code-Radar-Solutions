@@ -17,6 +17,7 @@ int main(){
             }
             else if(a[j]==a[j+1]){
                 flag=0;
+                break;
             }
         }
       }
