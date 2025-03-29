@@ -20,14 +20,15 @@ int main() {
             a[i] =a[i]/ 10;       
         }}
         else{
-            sum=0;
+           int sum_neg=0;
              while (a[i] != 0) {
                int num=-(a[i]);
             n = num % 10;    
-            sum =sum+ n;         
+            sum_neg =sum_neg+ n;         
             num =num/ 10;       
         }
         }
+        printf("%d ", sum_neg);
         printf("%d ", sum);  
     }
     return 0;
