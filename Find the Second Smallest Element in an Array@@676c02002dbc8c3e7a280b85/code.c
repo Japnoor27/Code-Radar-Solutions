@@ -17,19 +17,7 @@ int main() {
             }
         }
     }
-
-    // Find the second smallest element
-    int first = a[0];
-    int second = -1;  // Default to -1 if no second smallest exists
-
-    for (i = 1; i < N; i++) {
-        if (a[i] > first) {
-            second = a[i];
-            break;
-        }
-    }
-
-    printf("%d\n", second);
+printf("%d",a[1]);
 
     return 0;
 }
