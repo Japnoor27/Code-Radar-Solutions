@@ -7,14 +7,14 @@ int main(){
     }
     for(i=0;i<N;i++){
       if(a[i]%2==0){
-     b[i]=a[i];
+     b[j]=a[i];
      count++;
             }}
             if(count!=0){
                 max=b[0];
-                for(i=0;i<count;i++){
-                    if(b[i]>=max){
-                        max=b[i];
+                for(j=0;j<count;j++){
+                    if(b[j]>=max){
+                        max=b[j];
                     }
 
                 }
