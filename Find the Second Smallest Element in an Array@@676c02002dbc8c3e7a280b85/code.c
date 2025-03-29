@@ -10,10 +10,10 @@ int main() {
     int largest = INT_MIN, slargest = INT_MIN;
 
     for (int i = 0; i < N; i++) {
-        if (arr[i]>largest) {
+        if (arr[i]<largest) {
             slargest = largest;
             largest = arr[i];
-        } else if (arr[i] > slargest && arr[i] != largest) {
+        } else if (arr[i] < slargest && arr[i] != largest) {
             slargest = arr[i];
         }
     }
