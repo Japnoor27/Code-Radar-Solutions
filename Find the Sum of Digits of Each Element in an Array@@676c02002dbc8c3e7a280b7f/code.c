@@ -27,8 +27,9 @@ int main() {
             sum_neg =sum_neg+ n;         
             num =num/ 10;       
         }
+            printf("%d ", sum_neg);
         }
-        printf("%d ", sum_neg);
+       
         printf("%d ", sum);  
     }
     return 0;
