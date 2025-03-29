@@ -11,9 +11,7 @@ int main(){
             if(a[j]>max){
                 max=a[j];
             }
-            else{
-                printf("-1");
-            }
+           
         }
     }
     printf("%d",max);
