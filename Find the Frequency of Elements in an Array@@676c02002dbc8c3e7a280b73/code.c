@@ -12,11 +12,11 @@ for(j=i+1;j<N;j++){
         count++;
         freq[j]=0;
     }
-}
+}}
 if(freq[i]!=0){
     freq[i]=count;
 }
 for(i=0;i<N;i++){
-printf("%d %d");}
-    }
+printf("%d %d",freq[i],count);}
+    
 }
