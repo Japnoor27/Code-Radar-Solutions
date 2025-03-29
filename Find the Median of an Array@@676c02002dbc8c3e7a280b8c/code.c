@@ -3,7 +3,7 @@ int main(){
     int i,a[100]={},med,n;
 scanf("%d",&n);
 for(i=0;i<n;i++){
-    scanf("%d",a[i]);
+    scanf("%d",&a[i]);
 }
 if(n%2!=0){
     med=a[(n-1)/2];
