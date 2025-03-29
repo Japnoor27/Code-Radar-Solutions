@@ -10,11 +10,14 @@ int main() {
         int flag=0;
         if(arr[i]==t){
             printf("%d",i);
+            flag=1;
             break;
         }
       else{
-      printf("-1");
+      flag=0;
       }
     }
-   
+   if(flag==0){
+    printf("-1");
+   }
     }
