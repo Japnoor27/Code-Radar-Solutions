@@ -16,7 +16,7 @@ int main(){
 if(b[j]>max){
     max=b[j];
 }
-               else if(count==0){
+               else {
                 printf("-1");
                }
             }
