@@ -12,8 +12,8 @@ int main(){
             max=b[0];
             for(i=0;i<N;i++){
                 
-if(a[i]>max){
-    max=a[i];
+if(b[i]>max){
+    max=b[i];
 }
                 
             }
