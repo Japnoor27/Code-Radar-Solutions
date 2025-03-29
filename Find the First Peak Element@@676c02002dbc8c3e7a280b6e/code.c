@@ -18,4 +18,7 @@ int main(){
    if(a[0]>a[1]){
     printf("%d",a[0]);
    }
+   else{
+    printf("-1");
+   }
 }
