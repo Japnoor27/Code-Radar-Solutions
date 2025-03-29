@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int N, i, n, sum, a[100] = {};
+    int N, i, n, sum, a[100] = {}, sum_neg=0;;
     
 
     scanf("%d", &N);
@@ -32,7 +32,7 @@ int main() {
         }
        
        
-    }
+    }}
      printf("%d ", sum);  
       printf("%d ", sum_neg);
     return 0;
