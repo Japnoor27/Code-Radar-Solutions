@@ -3,11 +3,11 @@ int main() {
     int N, a[100], freq[100], i, j, count;
 
     // Input array size
-    printf("Enter the number of elements: ");
+  
     scanf("%d", &N);
 
     // Input array elements
-    printf("Enter the elements of the array:\n");
+   
     for (i = 0; i < N; i++) {
         scanf("%d", &a[i]);
         freq[i] = -1; // Initialize frequency array
