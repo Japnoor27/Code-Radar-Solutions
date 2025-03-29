@@ -10,17 +10,20 @@ int main(){
      b[i]=a[i];
      count++;
             }}
-            max=b[0];
-            for(j=0;j<count;j++){
-                
-if(b[j]>max){
-    max=b[j];
-}}
-  printf("%d",b[j]);
-else {
-    printf("-1");
-    }
-            
+            if(count!=0){
+                max=b[0];
+                for(i=0;i<count;i++){
+                    if(b[i]>max){
+                        max=a[i];
+                    }
+
+                }
+                printf("%d",max);
+            }
+            else{
+                printf("-1");
+            }
+              
           
 
         
