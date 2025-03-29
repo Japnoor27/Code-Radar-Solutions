@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int i,n,a[100]={},flag=0=0,j,t;
+    int i,n,a[100]={},flag=0,j,t;
     scanf("%d",&n);
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
@@ -15,5 +15,5 @@ int main(){
             }
         }
     }
-   
+   printf("%d %d\n",a[i],a[j]);
 }
