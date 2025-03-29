@@ -6,6 +6,7 @@ int main() {
         scanf("%d", &a[i]);
     }
     for(i=0;i<n;i++){
+        sum=0;
         while(a[i]!=0){
             n=a[i]%10;
             sum=sum+n;
