@@ -13,10 +13,8 @@ int main() {
             break;
         }
       else{
-        flag=0;
+      printf("-1");
       }
     }
-    if(flag==0){
-        printf("-1");
-    }
+   
     }
