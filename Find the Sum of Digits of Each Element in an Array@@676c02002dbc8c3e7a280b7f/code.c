@@ -20,6 +20,7 @@ int main() {
             a[i] =a[i]/ 10;       
         }}
         else{
+            sum=0;
              while (a[i] != 0) {
                int num=-(a[i]);
             n = num % 10;    
