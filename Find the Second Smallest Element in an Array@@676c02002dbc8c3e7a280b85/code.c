@@ -17,6 +17,7 @@ int main() {
             }
         }
     }
+    small=a[0];
 for(i=0;i<N;i++){
     if(a[i]<=small){
         small=a[i];
