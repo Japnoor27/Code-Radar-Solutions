@@ -8,7 +8,7 @@ int main(){
     for(i=0;i<N;i++){
        for(j=i+1;j<N;j++){
         if(a[j]=a[j+1]){
-            printf("%d",a[i]);
+            printf("%d",a[j]);
         }
        }
     }
