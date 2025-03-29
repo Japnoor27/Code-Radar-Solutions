@@ -14,12 +14,11 @@ int main(){
         }
         else if(a[i]<smallest &&a[i]!=smallest){
             ssmallest=a[i];
-        }
-        if(ssmallest==INT_MAX){
+        }}
+        if(ssmallest== INT_MAX){
             printf("-1");
         }
         else{
             printf("%d",smallest);
         }
     }
-}
