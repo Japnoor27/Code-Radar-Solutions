@@ -17,6 +17,6 @@ if(freq[i]!=0){
     freq[i]=count;
 }
 for(i=0;i<N;i++){
-printf("%d %d",freq[i],count);}
+printf("%d %d",a[i],freq[j]);}
     
 }
