@@ -17,17 +17,15 @@ int main(){
             }
             else if(a[j]==a[j+1]){
                 flag=0;
-                break;
             }
         }
       }
     
-    
-       if(flag==1){
-        printf("%d",a[N-2]);
+      if(N==1 || flag==0){
+        printf("-1");
       }
       else{
-        printf("-1");
+        printf("%d",a[N-2]);
       }
      return 0;
       
