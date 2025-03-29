@@ -18,8 +18,10 @@ int main() {
             n = a[i] % 10;    
             sum =sum+ n;         
             a[i] =a[i]/ 10;       
-        }}
-        else{
+        }
+          printf("%d ", sum);  }
+
+        else if(a[i]<0){
            int sum_neg=0;
              while (a[i] != 0) {
                int num=-(a[i]);
@@ -29,8 +31,11 @@ int main() {
         }
             printf("%d ", sum_neg);
         }
+        else{
+            printf("0");
+        }
        
-        printf("%d ", sum);  
+      
     }
     return 0;
 }
