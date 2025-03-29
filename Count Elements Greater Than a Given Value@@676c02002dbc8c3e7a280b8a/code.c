@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 int main(){
     int N,i,k,a[100]={},count=0;
     scanf("%d %d",&N,&k);
