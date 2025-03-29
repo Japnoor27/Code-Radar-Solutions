@@ -4,7 +4,7 @@ int main(){
     for(int i=0;i<=N;i++){
         scanf("%d",&a[i]);
     }
-    for(i=0;i<=N;i++){
+    for(int i=0;i<=N;i++){
         if(a[i]%2==0){
             counteven++;
         }
