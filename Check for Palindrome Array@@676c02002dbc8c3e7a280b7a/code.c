@@ -9,6 +9,7 @@ int main() {
         for(j=i+1;j<N;j++){
             if(a[i]==a[N-1-i]){
                 flag=1;
+                break;
             }
             else{
                 
