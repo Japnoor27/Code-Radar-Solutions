@@ -1,32 +1,26 @@
 #include <stdio.h>
-int main(){
-    int N,a[100]={},i,j,freq[100]={},count=1,flag=0;
+#include <limits.h>
+int main() {
+    int N;
     scanf("%d",&N);
-    for(i=0;i<N;i++){
-        scanf("%d",&a[i]);
-      }
-      for(i=0;i<N-1;i++){
-         flag=1;
-        for(j=0;j<N-1-i;j++){
-           
-            if(a[j]>a[j+1]){
-                flag=1;
-               int temp =a[j];
-               a[j]=a[j+1];
-               a[j+1]=temp;
-            }
-            else if(a[j]==a[j+1]){
-                flag=0;
-            }
+    int arr[N];
+    for (int i=0;i<N;i++) {
+        scanf("%d", &arr[i]);
+    }
+    int largest = INT_MIN, slargest = INT_MIN;
+
+    for (int i = 0; i < N; i++) {
+        if (arr[i]>largest) {
+            slargest = largest;
+            largest = arr[i];
+        } else if (arr[i] > slargest && arr[i] != largest) {
+            slargest = arr[i];
         }
-      }
-    
-      if(N==1 || flag==0){
-        printf("-1");
-      }
-      else{
-        printf("%d",a[N-2]);
-      }
-     return 0;
-      
-      }
+    }
+    if(slargest == INT_MIN) {
+        printf("-1\n");
+    } else {
+        printf("%d\n", slargest);
+    }
+   return 0;
+}
