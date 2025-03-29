@@ -10,14 +10,15 @@ int main() {
         scanf("%d", &a[i]);
     }
     
-    
+    // Process each number in the array
     for (i = 0; i < N; i++) {
         sum = 0; 
         while (a[i] != 0) {
-            n = a[i] % 10;    
-            a[i] =a[i]/ 10;      
+            n = a[i] % 10;    // Extract the last digit
+            sum =sum+ n;         // Add the digit to the sum
+            a[i] =a[i]/ 10;       // Remove the last digit
         }
-        printf("%d ", sum);  
+        printf("%d ", sum);  // Print the sum of digits for the current number
     }
     return 0;
 }
