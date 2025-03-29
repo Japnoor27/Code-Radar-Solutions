@@ -2,11 +2,12 @@
 #include <limits.h>
 int main(){
     int i,n,a[100]={};
+      int smallest= INT_MAX, ssmallest= INT_MAX;
     scanf("%d",&n);
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
-    int smallest= INT_MAX, ssmallest= INT_MAX;
+  
     for(i=0;i<n;i++){
         if(a[i]<smallest){
             ssmallest=smallest;
