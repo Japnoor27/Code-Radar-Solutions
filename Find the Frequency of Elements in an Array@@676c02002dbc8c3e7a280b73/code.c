@@ -13,10 +13,11 @@ for(j=i+1;j<N;j++){
         count++;
         freq[j]=0;
     }
-}}
+}
 if(freq[i]!=0){
     freq[i]=count;
-}
+}}
+
 for(i=0;i<N;i++){
     if(freq[i]!=0){
 printf("%d %d\n",a[i],freq[i]);}}
