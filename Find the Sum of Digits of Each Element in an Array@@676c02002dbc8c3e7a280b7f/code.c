@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int N, i, j,n,sum=0;
+    int N, i, j,n,sum=0,a[100]={};
     scanf("%d", &N);
     for (i = 0; i < N; i++) {
         scanf("%d", &a[i]);
