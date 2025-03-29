@@ -21,7 +21,7 @@ int main(){
         }
       }
     
-      printf("%d",a[n-1]*a[n-2]);
+      printf("%d",a[N-1]*a[N-2]);
      return 0;
       
       }
