@@ -11,11 +11,11 @@ int main(){
             }}
             max=b[0];
             for(i=0;i<N;i++){
-                for(j=i+1;j<N;j++){
-if(a[j]>max){
+                
+if(a[i]>max){
     max=a[j];
 }
-                }
+                
             }
             printf("%d",b[j]);
 
