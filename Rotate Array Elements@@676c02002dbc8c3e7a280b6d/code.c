@@ -7,7 +7,7 @@ void reverse(int a[],int si,int ei){
     return;
 }
 int main(){
-    int n,a[i],i,j,k;
+    int n,a[100]={},i,j,k;
     scanf("%d",&n);
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
