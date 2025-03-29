@@ -17,7 +17,12 @@ int main() {
             }
         }
     }
-printf("%d",a[1]);
+for(i=0;i<n;i++){
+    if(a[i]<=small){
+        small=a[i];
+    }
+}
+printf("%d",small);
 
     return 0;
 }
