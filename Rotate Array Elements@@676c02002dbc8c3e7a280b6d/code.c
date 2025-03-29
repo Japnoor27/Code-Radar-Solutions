@@ -1,9 +1,9 @@
 #include <stdio.h>
 void reverse(int a[],int si,int ei){
-    int i,j;
+  for(int i=si;j=ei;i<j;i++;j--){
     int temp=a[i];
     a[i]=a[j];
-    a[j]=temp;
+    a[j]=temp;}
     return;
 }
 int main(){
