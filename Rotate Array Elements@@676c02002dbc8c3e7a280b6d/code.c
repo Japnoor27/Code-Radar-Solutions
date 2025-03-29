@@ -1,11 +1,11 @@
 #include <stdio.h>
-void reverse(int a[],int si,int ei){
+void reverse(int a[100],int si,int ei){
   for(int i=si;j=ei;i<j;i++;j--){
     int temp=a[i];
     a[i]=a[j];
     a[j]=temp;}
-    return;
-}
+    return;}
+
 int main(){
     int n,a[100]={},i,j,k;
     scanf("%d",&n);
