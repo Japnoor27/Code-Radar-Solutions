@@ -15,10 +15,10 @@ int main() {
             }
         }
     }
-    if(flag==1){
+    if(flag==1 || N==1){
         printf("YES");
     }
-    else if(flag==0 || N==1){
+    else if(flag==0 ){
         printf("NO");
     }
     }
