@@ -7,6 +7,7 @@ int main(){
         freq[i]= -1;
     }
     for(i=0;i<N;i++){
+        count=1;
 for(j=i+1;j<N;j++){
     if(a[i]==a[j]){
         count++;
