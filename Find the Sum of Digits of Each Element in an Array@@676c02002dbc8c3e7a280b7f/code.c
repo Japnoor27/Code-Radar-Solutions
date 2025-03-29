@@ -18,7 +18,7 @@ int main() {
             sum += n;         // Add the digit to the sum
             a[i] /= 10;       // Remove the last digit
         }
-        printf("%d\n", sum);  // Print the sum of digits for the current number
+        printf("%d", sum);  // Print the sum of digits for the current number
     }
     return 0;
 }
