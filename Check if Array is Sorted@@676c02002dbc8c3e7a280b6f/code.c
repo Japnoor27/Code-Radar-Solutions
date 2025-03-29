@@ -6,11 +6,11 @@ for(i=0;i<N;i++){
     scanf("%d",&a[i]);
 }
 for(i=0;i<N;i++){
-   if(a[i]<a[i+1]){
-    printf("Sorted");
-   }
-   else{
-    printf("Not Sorted");
-   }
+    for(j=i+1;j<N;j++){
+        if(a[i]<a[j]){
+            printf("Sorted");
+        }
     }
+}
+else{printf("Not Sorted");}
 }
