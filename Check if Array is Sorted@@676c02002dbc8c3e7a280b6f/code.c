@@ -8,7 +8,7 @@ for(i=0;i<N;i++){
 for(i=0;i<N;i++){
     for(j=i+1;j<N;j++){
         flag=0;
-        if(a[i]<a[j]){
+        if(a[i]<a[j] || a[i]==a[j]){
            flag=1;
         }
         else{
