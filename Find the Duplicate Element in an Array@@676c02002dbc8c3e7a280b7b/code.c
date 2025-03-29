@@ -7,7 +7,7 @@ int main(){
     }
     for(i=0;i<N;i++){
        for(j=i+1;j<N;j++){
-        if(a[i]=a[j]){
+        if(a[j]=a[j+!]){
             printf("%d",a[i]);
         }
        }
