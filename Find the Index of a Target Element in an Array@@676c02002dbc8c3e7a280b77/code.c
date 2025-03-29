@@ -10,6 +10,7 @@ int main() {
         int flag=0;
         if(arr[i]==t){
             printf("%d",i);
+            break;
         }
       else{
         flag=0;
@@ -17,4 +18,5 @@ int main() {
     }
     if(flag==0){
         printf("-1");
-    }}
+    }
+    }
