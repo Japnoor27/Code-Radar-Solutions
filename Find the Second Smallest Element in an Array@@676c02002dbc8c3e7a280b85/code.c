@@ -17,7 +17,7 @@ int main() {
             }
         }
     }
-for(i=0;i<n;i++){
+for(i=0;i<N;i++){
     if(a[i]<=small){
         small=a[i];
     }
