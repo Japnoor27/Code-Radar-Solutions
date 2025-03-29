@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int N, i, n, sum, a[100] = {}, sum_neg=0;;
+    int N, i, n, sum, a[100] = {};
     
 
     scanf("%d", &N);
@@ -19,8 +19,7 @@ int main() {
             sum =sum+ n;         
             a[i] =a[i]/ 10;       
         }
-        //  printf("%d ", sum);  
-        }
+         printf("%d ", sum);  }
         else{
            int sum_neg=0;
              while (a[i] != 0) {
