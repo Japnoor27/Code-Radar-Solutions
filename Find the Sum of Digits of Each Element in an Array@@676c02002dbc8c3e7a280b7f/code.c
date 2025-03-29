@@ -2,23 +2,23 @@
 int main() {
     int N, i, n, sum, a[100] = {};
     
-    // Input the size of the array
+
     scanf("%d", &N);
     
-    // Input the array elements
+   
     for (i = 0; i < N; i++) {
         scanf("%d", &a[i]);
     }
     
-    // Process each number in the array
+   
     for (i = 0; i < N; i++) {
         sum = 0; 
         while (a[i] != 0) {
-            n = a[i] % 10;    // Extract the last digit
-            sum =sum+ n;         // Add the digit to the sum
-            a[i] =a[i]/ 10;       // Remove the last digit
+            n = a[i] % 10;    
+            sum =sum+ n;         
+            a[i] =a[i]/ 10;       
         }
-        printf("%d ", sum);  // Print the sum of digits for the current number
+        printf("%d ", sum);  
     }
     return 0;
 }
