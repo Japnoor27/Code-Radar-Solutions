@@ -12,7 +12,6 @@ int isPrime(int num){
             p++;
           
         }
-        return ("No prime numbers");
     }
     return 1;
 }
