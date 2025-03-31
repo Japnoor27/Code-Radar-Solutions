@@ -16,12 +16,5 @@ int binarySearch(int arr[], int n, int target) {
     return -1; // Target not found
 }
 
-// Function to print the result
-void printResult(int index) {
-    if (index != -1) {
-        printf("Element found at index %d\n", index);
-    } else {
-        printf("Element not found\n");
-    }
-}
+
 
