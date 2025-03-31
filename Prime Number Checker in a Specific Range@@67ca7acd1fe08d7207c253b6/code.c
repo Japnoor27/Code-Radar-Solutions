@@ -4,7 +4,7 @@ int isPrime(int p){
         if(p%i==0){
             return 0;
         }
-    }
+    }return 1;
 }
 int printPrimesInRange(int a,int b){
     int flag=0;
