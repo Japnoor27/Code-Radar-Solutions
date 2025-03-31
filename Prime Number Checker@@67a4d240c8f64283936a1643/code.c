@@ -9,7 +9,8 @@ int isPrime(int num){
         if(num%j==0){
             return 0;
         } 
-    
+        else{
+            return 1;
+        }  
         j++; }}
-        return 1;
 }
