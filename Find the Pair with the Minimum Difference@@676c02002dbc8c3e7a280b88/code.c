@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int n,a[100]={},i;
+    int n,a[100]={},i,diff;
     scanf("%d",&n);
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
@@ -14,5 +14,15 @@ int main(){
             }
         }
     }
-    printf("%d %d",a[0],a[1]);
+    diff=a[0]
+   for(i=0;i<n;i++){
+    int min=a[i+1]-a[i];
+   if(min<diff){
+   diff=min;
+   num1=a[i];
+   num2=a[i+1];
+
+   }
+   }
+   printf("%d %d",num1,num2);
 }
