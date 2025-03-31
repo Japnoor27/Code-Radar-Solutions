@@ -26,4 +26,7 @@ int main(){
    }
    }
    printf("%d %d",num1,num2);
+   if(n==1){
+    printf("-1");
+   }
 }
