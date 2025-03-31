@@ -1,13 +1,13 @@
 #include <stdio.h>
 int binarySearch(int arr[];int n; int target){
-    int found=0;
+    int found=-1;
     for(int i=0;i<n;i++){
-        found=0;
+        found=-1;
         if(arr[i]==target){
             found=1;
         }
         else{
-            found=0;
+            found=-1;
         }
     }
     if(found==1){
