@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <limits.h>
 int main(){
     int n,a[100]={},i,diff,num1,num2;
     scanf("%d",&n);
@@ -14,7 +15,7 @@ int main(){
             }
         }
     }
-    diff=a[0];
+    diff=INT_MAX;
    for(i=0;i<n-1;i++){
     int min=a[i+1]-a[i];
    if(min<diff){
