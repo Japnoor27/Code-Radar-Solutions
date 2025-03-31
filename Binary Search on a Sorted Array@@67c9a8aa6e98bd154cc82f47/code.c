@@ -4,13 +4,14 @@ int binarySearch(int arr[];int n; int target){
     for(int i=0;i<n;i++){
         found=-1;
         if(arr[i]==target){
+            printf("%d");
             found=1;
+            break;
+
         }
         else{
             found=-1;
         }
     }
-    if(found==1){
-        printf("%d",arr[i]);
-    }
+   
 }
