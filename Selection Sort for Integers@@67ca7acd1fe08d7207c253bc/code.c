@@ -1,6 +1,6 @@
 #include <stdio.h>
 int selectionSort(int arr[],int n){
-    int i,j;
+    int i,j,min;
     for(int i=0;i<n;i++){
      int min=arr[i];
      int minidx=i;
