@@ -4,6 +4,7 @@ int isPrime(int num){
     if(num<=1){
         return 0;
     }
+    else{
     while(j < num){
         if(num%j==0){
             return 0;
@@ -11,5 +12,5 @@ int isPrime(int num){
         else{
             return 1;
         }  
-        j++; }
+        j++; }}
 }
