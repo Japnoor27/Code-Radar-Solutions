@@ -24,9 +24,10 @@ int main(){
     num2=a[i+1];
 
    }
-   }
-   printf("%d %d",num1,num2);
-  else if(n==1){
+     else if(n==1){
     printf("-1");
    }
+   }
+   printf("%d %d",num1,num2);
+
 }
