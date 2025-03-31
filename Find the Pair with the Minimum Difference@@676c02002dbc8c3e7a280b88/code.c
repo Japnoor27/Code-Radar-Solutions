@@ -15,6 +15,9 @@ int main(){
             }
         }
     }
+    if(n==1){
+    printf("-1");
+   }
     int diff=INT_MAX;
    for(i=0;i<n-1;i++){
     int min=a[i+1]-a[i];
@@ -24,9 +27,7 @@ int main(){
     num2=a[i+1];
 
    }
-     else if(n==1){
-    printf("-1");
-   }
+    
    }
    printf("%d %d",num1,num2);
 
