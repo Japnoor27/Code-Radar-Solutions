@@ -17,6 +17,7 @@ int main(){
     }
     if(n==1){
     printf("-1");
+    break;
    }
     int diff=INT_MAX;
    for(i=0;i<n-1;i++){
