@@ -10,12 +10,12 @@ for(i=0;i<n;i++){
     count=0,flag=0;
     while(j<a[i]){
         if(a[i]%j==0){
-            flag=0;
+            flag=1;
             break;
         }
         j++;
     }
-    if(flag==1 && a[i]>1){
+    if(flag==0 && a[i]>1){
         count++;
     }
 }
