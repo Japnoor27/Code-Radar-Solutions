@@ -1,20 +1,17 @@
 #include <stdio.h>
 
 // Selection Sort Function
-void selectionSort(int arr[], int n) {
-    int i, j, minidx;
-    for (i = 0; i < n - 1; i++) {
-        minidx = i; // Assume the current element is the smallest
-        for (j = i + 1; j < n; j++) {
-            if (arr[j] < arr[minidx]) {
-                minidx = j; // Update index of the smallest element
+int selectionSort(int arr[],int n){
+    for( int i=0;i<n-1;i++){
+        for( int j=0;j<n-1-i;j++){
+            if(arr[j]>arr[j+1]){
+                int temp=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1]=temp;
             }
         }
-        // Swap the found smallest element with the first element
-        int temp = arr[minidx];
-        arr[minidx] = arr[i];
-        arr[i] = temp;
     }
+    return 0;
 }
 
 // Function to print array
