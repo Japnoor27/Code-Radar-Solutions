@@ -7,4 +7,5 @@ for(int i=0;i<n;i++){
     a=b;
     b=c;
 }
+printf("\n");
 }
