@@ -6,6 +6,10 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
+      if(n==1){
+    printf("-1");
+    break;
+   }
     for(i=0;i<n-1;i++){
         for(int j=0;j<n-1-i;j++){
             if(a[j]>a[j+1]){
@@ -19,10 +23,7 @@ int main(){
     int diff=INT_MAX;
    for(i=0;i<n-1;i++){
     int min=a[i+1]-a[i];
-      if(n==1){
-    printf("-1");
-    break;
-   }
+  
    if(min<diff){
    diff=min;
     num1=a[i];
