@@ -19,8 +19,8 @@ int main(){
     int min=a[i+1]-a[i];
    if(min<diff){
    diff=min;
-   num1=a[i];
-   num2=a[i+1];
+   int num1=a[i];
+   int num2=a[i+1];
 
    }
    }
