@@ -10,10 +10,9 @@ int isPrime(int num){
                 return 0;
             }
             p++;
-            else{
-                return ("No prime numbers");
-            }
+          
         }
+        return ("No prime numbers");
     }
     return 1;
 }
