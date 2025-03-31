@@ -14,7 +14,7 @@ int main(){
             }
         }
     }
-    diff=a[0]
+    diff=a[0];
    for(i=0;i<n;i++){
     int min=a[i+1]-a[i];
    if(min<diff){
