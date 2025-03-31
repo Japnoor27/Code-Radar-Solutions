@@ -1,11 +1,11 @@
 #include <stdio.h>
 int selectionSort(int arr[],int n){
     int i,j,min,minidx;
-    for(i=0;i<n;i++){
+    for(int i=0;i<n;i++){
      min=arr[i];
      minidx=i;
     }
-    for(j=i;j<n;j++){
+    for(int j=i;j<n;j++){
         if(min>arr[j]){
             min=arr[j];
             minidx=j;
