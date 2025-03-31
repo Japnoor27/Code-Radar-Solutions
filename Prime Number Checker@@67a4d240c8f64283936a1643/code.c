@@ -1,15 +1,17 @@
 #include <stdio.h>
 int isPrime(int num){
-    int j=2;
+
     if(num<=1){
         return 0;
     }
     else{
-    while(j < num){
+    for(int j=2;j<num;j++){
         if(num%j==0){
             return 0;
         } 
-    
-        j++; }}
-        return 1;
+        else{
+            return 1;
+        }
+     }}
+      
 }
