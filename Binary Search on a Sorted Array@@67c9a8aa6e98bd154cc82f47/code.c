@@ -1,16 +1,12 @@
 #include <stdio.h>
-int binarySearch(int arr[], int n, int target){
-    int found=-1;
-    for(int i=0;i<n;i++){
-        if(arr[i]!=arr[i+1]){
-        if(arr[i]==target){
-           return i;}
-           if(arr[i]==arr[i+1]){
-            return n%2;
-           }
 
+// Linear Search Function
+int linearSearch(int arr[], int n, int target) {
+    for (int i = 0; i < n; i++) {
+        if (arr[i] == target) {
+            return i; // Return index if target is found
         }
-    
-    }return -1;
-   
+    }
+    return -1; // Return -1 if target is not found
 }
+
