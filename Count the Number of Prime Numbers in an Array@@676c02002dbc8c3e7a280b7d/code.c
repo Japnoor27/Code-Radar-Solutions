@@ -15,7 +15,7 @@ for(i=0;i<n;i++){
         }
         j++;
     }
-    if(flag=1 && a[i]>1){
+    if(flag==1 && a[i]>1){
         count++;
     }
 }
