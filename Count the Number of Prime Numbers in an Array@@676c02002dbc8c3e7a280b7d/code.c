@@ -7,7 +7,7 @@ for(i=0;i<n;i++){
 }
 for(i=0;i<n;i++){
     int j=2;
-    count=0;
+  if(a[i]>1){
     while(j<a[i]){
         flag=1;
         if(a[i]%j==0){
@@ -15,7 +15,7 @@ for(i=0;i<n;i++){
             break;
         }
         j++;
-    }
+    }}
     if(flag==1 && a[i]>1){
         count++;
     }
