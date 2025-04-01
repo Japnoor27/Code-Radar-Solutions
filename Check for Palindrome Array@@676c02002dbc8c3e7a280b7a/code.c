@@ -7,7 +7,7 @@ int main() {
     for (i = 0; i < N; i++) {
         scanf("%d", &a[i]);
     }
-    for (i = 0; i < N / 2; i++) {
+    for (i = 0; i < N ; i++) {
         if (a[i] != a[N - 1 - i]) {
             flag = 0; 
             break;
