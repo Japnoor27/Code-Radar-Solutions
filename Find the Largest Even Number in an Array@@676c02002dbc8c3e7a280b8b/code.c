@@ -7,7 +7,7 @@ int main(){
     }
     for(i=0;i<N;i++){
       if(a[i]%2==0){
-     b[j++]=a[i];
+     b[j]=a[i];
      count++;
             }}
             if(count!=0){
